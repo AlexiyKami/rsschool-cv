@@ -1,7 +1,7 @@
 # **Alexey Matsyl**
 
 ## Junior Frontend Developer  
-
+![Photo]("cv_photo.jpg")
 ***
 ## Contact information  
  * **Phone:**  +375 29 8341500 
