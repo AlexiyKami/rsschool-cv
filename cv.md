@@ -1,8 +1,8 @@
 # **Alexey Matsyl**
 
 ## Junior Frontend Developer  
-![Photo]("cv_photo.jpg")
-***
+![Photo](cv_photo.jpg)
+
 ## Contact information  
  * **Phone:**  +375 29 8341500 
 
@@ -10,14 +10,18 @@
 
  * **Telegram:** @alexey_kami  
 
- * [**GitHub**](https://github.com/AlexiyKami) 
+ * [**GitHub**](https://github.com/AlexiyKami)  
+
 ***
 
 ## About me
  > Hello. I am 20 years old.  
-I want to learn JavaScript.   
-My goal is to gain knowlegde and skills in RSS School to become a proficient Front-End developer.
-***
+ > I want to learn JavaScript.   
+ > My goal is to gain knowlegde and skills in RSS School to become a proficient Front-End developer.  
+
+
+***  
+
 ## Skills
  * HTML5, CSS3
  * C# basics
@@ -25,8 +29,10 @@ My goal is to gain knowlegde and skills in RSS School to become a proficient Fro
  * Git, GitHub
  * VSCode
  * Adobe Photoshop, Illustrator
- * Blender 3D
- ***
+ * Blender 3D  
+
+ ***  
+ 
 ## Code example
 *Write function bmi that calculates body mass index (bmi = weight / height2).*
 
@@ -52,13 +58,18 @@ function bmi(weight, height) {
       }    
   
 }
-```
-***
+```  
+
+***  
+
 ## Education
 Belorussian National Technical University - Exploitation of Intelligent Transport Systems  
-RSSchool - In process
-***
+RSSchool - In process  
+
+***  
+
 ## Languages
 Russian - Native  
-English - A2
+English - A2  
+
 ***
