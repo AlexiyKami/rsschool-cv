@@ -1,22 +1,44 @@
 * {
-    margin: 0px;
-    padding: 0px;
+    margin: 2px;
+    padding: 2px;
 }
-body { 
+h2 {
+    background-color:#e6c957 ;
+}
+
+body {
     display: flex;
     justify-content: center;
+}
+
+.body-section { 
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    justify-content: center;
+    border: 2px solid rgb(0, 0, 0);
     background-color: #E6E2D4;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
 header {
     display:flex;
-    justify-content: space-evenly;
-
+    justify-content:space-evenly;
 }
 
 .header-text {
     display:flex;
     flex-flow: column;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    align-items:center;
 }
+
+main {
+    display: flex;
+    flex-flow: row nowrap;    
+}
+
+article {
+    
+}
+
