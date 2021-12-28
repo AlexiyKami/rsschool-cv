@@ -2,3 +2,21 @@
     margin: 0px;
     padding: 0px;
 }
+body { 
+    display: flex;
+    justify-content: center;
+    background-color: #E6E2D4;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+header {
+    display:flex;
+    justify-content: space-evenly;
+
+}
+
+.header-text {
+    display:flex;
+    flex-flow: column;
+    justify-content: space-around;
+}
