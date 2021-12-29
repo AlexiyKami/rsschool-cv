@@ -2,8 +2,19 @@
     margin: 2px;
     padding: 2px;
 }
+
+
+ul {
+    margin: 2px 2px 2px 15px;
+}
+
 h2 {
     background-color:#e6c957 ;
+}
+
+code {
+    display: flex;
+    background-color: #d1cec2;
 }
 
 body {
@@ -35,10 +46,14 @@ header {
 
 main {
     display: flex;
-    flex-flow: row nowrap;    
+    flex-flow: row nowrap;
+    justify-content: space-evenly;    
+}
+article {
+    margin: 5px;
 }
 
-article {
-    
+.main-section {
+    width: 50%;
 }
 

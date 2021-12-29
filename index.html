@@ -17,12 +17,17 @@
             </section>
         </header>
         <main>
-            <section>
+            <section class="main-section">
                  <article>
                      <h2>About me:</h2>
-                     Hello. I am 20 years old.
-                     I want to learn JavaScript.
+                     Hello. I am 20 years old.<br>
+                     I want to learn JavaScript.<br>
                      My goal is to gain knowlegde and skills in RSS School to become a proficient Front-End developer.
+                 </article>
+                 <article>
+                     <h2>Languages:</h2>
+                     Russian - Native <br>
+                     English - A2
                  </article>
                  <article>
                     <h2>Contact information:</h2>
@@ -37,12 +42,12 @@
                             Telegram: @alexey_kami
                         </li>
                         <li>
-                            GitHub
+                            <a href="https://github.com/AlexiyKami">GitHub</a>
                         </li>
                     </ul>            
                 </article>
             </section>
-            <section>
+            <section class="main-section">
                 <article>
                     <h2>Skills:</h2>
                     <ul>
@@ -69,6 +74,44 @@
                         </li>
                     </ul>                        
                 </article>
+                <article>
+                    <h2>Education and courses:</h2>
+                    Belorussian National Technical University - Exploitation of Intelligent Transport Systems 
+                    <br>
+                    <br>
+                    RSSchool - In process
+                    <br>
+                    <br>
+                    <a href="https://ru.code-basics.com">Code Basics HTML + CSS</a>
+                </article>
+                <article>
+                    <h2>Code example:</h2>
+                    Write function bmi that calculates body mass index  (bmi = weight / height2).
+                    <br>
+                    if bmi <= 18.5 return “Underweight”
+                    <br>
+                    if bmi <= 25.0 return “Normal”
+                    <br>
+                    if bmi <= 30.0 return “Overweight”
+                    <br>
+                    if bmi > 30 return “Obese”
+                    <pre>
+                        <code>
+function bmi(weight, height) {
+    let result = weight/(height)**2;
+    if(result<=18.5){
+        return "Underweight";
+    } else if(result<=25.0){
+        return "Normal";
+    } else if(result<=30.0){
+        return "Overweight";
+    } else{
+        return "Obese";
+    }                               
+}
+                        </code>
+                    </pre>
+                 </article>
             </section>
         </main>
         <footer>
