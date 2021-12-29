@@ -28,6 +28,14 @@ nav a {
     font-weight: bolder;
 }
 
+.nav-list {
+    display: inline-flex;
+}
+
+.nav-list li {
+    list-style-type: none;
+}
+
 ul {
     margin: 2px 2px 2px 15px;
 }
