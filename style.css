@@ -103,5 +103,9 @@ div {
     width: 50%;
 }
 
-
+footer {
+    display: inline-flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
 
