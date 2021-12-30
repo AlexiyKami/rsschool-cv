@@ -74,7 +74,7 @@ body {
 
 .body-section { 
     display: flex;
-    width: 60%;
+    width: 65%;
     flex-direction: column;
     justify-content: center;
     border: 2px solid rgb(0, 0, 0);
