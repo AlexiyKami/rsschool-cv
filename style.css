@@ -44,6 +44,7 @@ ul {
 h1 {
     font-size: 300%;
     color: #007c9e;
+    line-height: 150%;
 }
 
 h2 {
@@ -81,7 +82,7 @@ body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-header {
+.header-section {
     display:flex;
     justify-content:space-evenly;
 }
