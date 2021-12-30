@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Alexey Matsyl CV</title>
+</head>
+<body>
+    <div class="body-section">
+        <header>
+            <nav>
+                <ul class="nav-list">
+                    <li><a href="#aboutme">About me</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#languages">Languages</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#contacts">Contacts</a></li>
+                    <li><a href="#code">Code example</a></li>
+                </ul>
+            </nav>
+            <div class="header-section">
+                <img class="main-photo" src="cv_photo.jpg" alt="Photo" width="350">
+                <div class="header-text">
+                    <h1>Alexey Matsyl</h1>
+                    <h3>Junior Frontend Developer</h3>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="main-section">
+                 <article>
+                     <h2 id="aboutme">About me:</h2>
+                     <div>
+                        Hello. I am 20 years old.<br>
+                        I want to learn JavaScript.<br>
+                        My goal is to gain knowlegde and skills in RSS School to become a proficient Front-End developer.
+                     </div>
+                 </article>
+                 <article>
+                    <h2 id="code">Code example:</h2>
+                    <div>
+                        Write function bmi that calculates body mass index  (bmi = weight / height2).
+                        <br>
+                        if bmi &lt;= 18.5 return “Underweight”
+                        <br>
+                        if bmi &lt;= 25.0 return “Normal”
+                        <br>
+                        if bmi &lt;= 30.0 return “Overweight”
+                        <br>
+                        if bmi > 30 return “Obese”
+                    </div>
+                    <pre>
+                        <code>
+function bmi(weight, height) {
+    let result = weight/(height)**2;
+    if(result&lt;=18.5){
+        return "Underweight";
+    } else if(result&lt;=25.0){
+        return "Normal";
+    } else if(result&lt;=30.0){
+        return "Overweight";
+    } else{
+        return "Obese";
+    }                               
+}
+                        </code>
+                    </pre>
+                </article>
+            </div>
+            <div class="main-section">
+                <article>
+                    <h2 id="contacts">Contact information:</h2>
+                    <ul>
+                        <li>
+                            Phone: +375 29 8341500
+                        </li>
+                        <li>
+                            E-mail: Leksij-1@mail.ru
+                        </li>
+                        <li>
+                            Telegram: @alexey_kami
+                        </li>
+                        <li>
+                            <a href="https://github.com/AlexiyKami" target="_blank">GitHub</a>
+                        </li>
+                    </ul>            
+                </article>
+                <article>
+                    <h2 id="skills">Skills:</h2>
+                    <ul>
+                        <li>
+                            HTML5, CSS3
+                        </li>
+                        <li>
+                            C# basics
+                        </li>
+                        <li>
+                            JavaScript basics
+                        </li>
+                        <li>
+                            Git, GitHub
+                        </li>
+                        <li>
+                            VSCode
+                        </li>
+                        <li>
+                            Adobe Photoshop, Illustrator
+                        </li>
+                        <li>
+                            Blender 3D
+                        </li>
+                    </ul>                        
+                </article>
+                <article>
+                    <h2 id="education">Education and courses:</h2>
+                    <ul>
+                        <li>
+                            Belorussian National Technical University - Exploitation of Intelligent Transport Systems
+                        </li>
+                        <li>
+                            RSSchool - In process
+                        </li>
+                        <li>
+                            <a href="https://ru.code-basics.com" target="_blank">Code Basics HTML + CSS</a>
+                        </li>
+                    </ul>
+                </article>
+                <article>
+                    <h2 id="languages">Languages:</h2>
+                    <ul>
+                        <li>
+                            Russian - Native
+                        </li>
+                        <li>
+                            English - A2
+                        </li>
+                    </ul>
+                </article>
+            </div>
+        </main>
+        <footer>
+            <div>&#169; 2021 by Alexey Matsyl</div>
+            <div>
+                <a href="https://github.com/AlexiyKami" target="_blank"><img src="github_logo.png" alt="GitHub logo" width="64"></a>
+                <a href="https://rs.school/js" target="_blank"><img src="rs_school_js.svg" alt="RSSchool logo" width="64"></a>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
